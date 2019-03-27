@@ -4,7 +4,7 @@ from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 client = discord.Client()
-# BY PR#0171
+# BY PR#4003
 @client.event
 async def on_ready():
     print('BOT ONLINE - Olá Mundo!')
